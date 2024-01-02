@@ -14,12 +14,12 @@ import org.firstinspires.ftc.teamcode.Mechinisms.Placer;
 import org.firstinspires.ftc.teamcode.Mechinisms.TankDrive;
 
 public class Robot {
-    public MecanumDrive mecanumDrive = new MecanumDrive();
-    public MicroPlacer microPlacer = new MicroPlacer();
-    public Arm arm = new Arm();
-    public Camera camera = new Camera();
-    public Drone drone = new Drone();
-    public Placer placer = new Placer();
+    //public MecanumDrive mecanumDrive = new MecanumDrive();
+    //public MicroPlacer microPlacer = new MicroPlacer();
+    //public Arm arm = new Arm();
+    //public Camera camera = new Camera();
+    //public Drone drone = new Drone();
+    //public Placer placer = new Placer();
     public Claw claw = new Claw();
     public ClawArm clawArm = new ClawArm();
     public TankDrive tankDrive = new TankDrive();
