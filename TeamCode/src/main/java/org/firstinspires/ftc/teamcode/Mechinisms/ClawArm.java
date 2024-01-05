@@ -12,7 +12,7 @@ public class ClawArm {
     }
 
     public void move(float change) {
-        currentPos += change*0.1;
+        currentPos += change*0.01;
         armServo.setPosition((double)currentPos);
     }
 }

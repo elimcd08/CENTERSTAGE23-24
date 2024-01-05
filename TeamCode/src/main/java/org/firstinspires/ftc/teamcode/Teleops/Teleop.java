@@ -20,8 +20,8 @@ public class Teleop extends OpMode {
 
     @Override
     public void loop() {
-        robot.tankDrive.setPowers(gamepad1.left_stick_y, gamepad1.right_stick_y);
-        robot.clawArm.move(gamepad2.left_stick_y);
+        robot.tankDrive.setPowers(-gamepad1.left_stick_y, gamepad1.right_stick_y);
+        robot.clawArm.move(gamepad2.right_stick_y);
         robot.claw.move(gamepad2.left_stick_x);
     }
 }
